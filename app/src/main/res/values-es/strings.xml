@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Generacion Flex</string>
+    <string name="their_flex">Su Flex</string>
+    <string name="welcome_message">Bienvenido a Generacion Flex</string>
+    <string name="your_flex">Tu Flex</string>
+</resources>
