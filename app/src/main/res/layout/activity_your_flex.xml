@@ -6,4 +6,11 @@
     android:layout_height="match_parent"
     tools:context="com.generationflex.generationflex.YourFlex">
 
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="479dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+    </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
