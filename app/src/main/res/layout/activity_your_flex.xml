@@ -6,11 +6,91 @@
     android:layout_height="match_parent"
     tools:context="com.generationflex.generationflex.YourFlex">
 
-    <RelativeLayout
-        android:layout_width="328dp"
-        android:layout_height="479dp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp">
+    <ImageButton
+        android:id="@+id/profile_picture"
+        android:layout_width="198dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/profile_picture"
+        android:onClick="changeProfPic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/profilepic" />
 
-    </RelativeLayout>
+    <Button
+        android:id="@+id/options"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimary"
+        android:onClick="openSettings"
+        android:text="@string/options"
+        app:layout_constraintEnd_toEndOf="@+id/profile_picture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/profile_picture"
+        android:layout_marginLeft="8dp" />
+
+    <GridLayout
+        android:id="@+id/outfit_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/outfits" />
+
+    <Button
+        android:id="@+id/new_outfit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="makeNewOutfit"
+        android:text="@string/new_outfit"
+        app:layout_constraintStart_toEndOf="@+id/profile_picture"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="signOut"
+        android:text="@string/sign_out"
+        app:layout_constraintStart_toEndOf="@+id/options"
+        app:layout_constraintTop_toBottomOf="@+id/profile_picture" />
+
+    <TextView
+        android:id="@+id/outfits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/outfits"
+        android:textAllCaps="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/options" />
+
+    <Button
+        android:id="@+id/contest_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:onClick="switchToTheirFlex"
+        android:text="@string/contests"
+        app:layout_constraintBottom_toTopOf="@+id/sign_out"
+        app:layout_constraintStart_toEndOf="@+id/profile_picture" />
+
 </android.support.constraint.ConstraintLayout>

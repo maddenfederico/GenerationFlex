@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/comment_template_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/comment_text"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:drawablePadding="5dp"
+        android:gravity="start"
+        android:includeFontPadding="true"
+        android:text="@string/not_found"
+        android:textAllCaps="false"
+        android:typeface="normal" />
+
+    <ToggleButton
+        android:id="@+id/like"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:checked="false"
+        android:lines="1"
+        android:text=""
+        android:textAllCaps="false"
+        android:textOff="@string/like"
+        android:textOn="@string/liked"
+        android:textSize="12sp"
+        android:typeface="normal" />
+
+    <ToggleButton
+        android:id="@+id/dislike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:checked="false"
+        android:lines="1"
+        android:text=""
+        android:textAllCaps="false"
+        android:textOff="@string/dislike"
+        android:textOn="@string/disliked"
+        android:textSize="12sp"
+        android:typeface="normal" />
+
+</android.widget.LinearLayout>

@@ -2,6 +2,53 @@
 <resources>
     <string name="app_name">Generacion Flex</string>
     <string name="their_flex">Su Flex</string>
-    <string name="welcome_message">Bienvenido a Generacion Flex</string>
+    <string name="welcome_message">Bienvenido a Generación Flex</string>
     <string name="your_flex">Tu Flex</string>
+    <string name="user_name">Nombre de Usuario</string>
+    <string name="password">Clave</string>
+    <string name="sign_in">"Ingresar "</string>
+    <string name="sign_in_fail">"Usuario/contraseña incorrectos"</string>
+    <string name="options">"OPCIONES "</string>
+    <string name="change_un">Cambiar Nombre de Usuario</string>
+    <string name="change_pw">Cambiar Clave</string>
+    <string name="change_pfp">Cambiar Foto de Perfil</string>
+    <string name="profile_picture">Foto de Perfil</string>
+    <string name="dark_mode">Modo Oscuro</string>
+    <string name="name">Nombre</string>
+    <string name="top">Camisa</string>
+    <string name="bottom">Parte de Abajo</string>
+    <string name="accessories">Accesorios</string>
+    <string name="shoes">Zapatos</string>
+    <string name="save">Guardar</string>
+    <string name="back">Atrás</string>
+    <string name="new_outfit">Traje Nuevo</string>
+    <string name="delete">Eliminar</string>
+    <string name="sign_out">Cerrar Sesion</string>
+    <string name="outfits">Trajes</string>
+    <string name="title_activity_contest">Concurso</string>
+    <string name="join_contest">Sumarse a Concurso</string>
+    <string name="cancel">Cancelar</string>
+    <string name="submit">Entregar</string>
+    <string name="missing_contest">Concurso/traje faltante</string>
+    <string name="profile_page">Página de Perfil</string>
+    <string name="your_contests">Sus Concursos</string>
+    <string name="contests">Concursos</string>
+    <string name="daily">Diario</string>
+    <string name="weekly">Semanal</string>
+    <string name="hundredk">CienK</string>
+    <string name="outfit">Traje</string>
+    <string name="leave_comment">Dejar Comentario</string>
+    <string name="edit_comment">Editar Comentario</string>
+    <string name="report">Denunciar</string>
+    <string name="report_comment">Denunciar Commentario</string>
+    <string name="comment_reported">El comentario ha sido denunciado</string>
+    <string name="no_outfits">¡No tenés trajes!</string>
+    <string name="not_found">NO_ENCONTRADO</string>
+    <string name="abandon" translatable="false">Abandonar</string>
+    <string-array name="contests_array">
+        <item>Diario</item>
+        <item>Semanal</item>
+        <item>Cienk</item>
+    </string-array>
+
 </resources>

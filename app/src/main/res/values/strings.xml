@@ -3,4 +3,66 @@
     <string name="welcome_message">Welcome to Generation Flex</string>
     <string name="your_flex">Your Flex</string>
     <string name="their_flex">Their Flex</string>
+    <string name="user_name">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="current_username" translatable="false">maddenfederico</string>
+    <string name="current_password" translatable="false">password1234</string>
+    <string name="sign_in_fail">"Incorrect username/password"</string>
+    <string name="options">OPTIONS</string>
+
+
+
+    <string name="change_un">Change Username</string>
+    <string name="change_pw">Change Password</string>
+    <string name="change_pfp">Change Profile Picture</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="name">Name</string>
+    <string name="top">Top</string>
+    <string name="bottom">Bottom</string>
+    <string name="accessories">Accessories</string>
+    <string name="shoes">Shoes</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="new_outfit">New Outfit</string>
+    <string name="delete">Eliminar</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="outfits">Outfits</string>
+    <string name="title_activity_contest">Contest</string>
+    <string name="join_contest">Join a Contest</string>
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="missing_contest">Missing contest/outfit</string>
+    <string name="profile_page">Profile Page</string>
+    <string name="your_contests">Your Contests</string>
+    <string name="contests">Contests</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="hundredk">HundredK</string>
+    <string name="outfit">Outfit</string>
+    <string name="leave_comment">Leave Comment</string>
+    <string name="edit_comment">Edit Comment</string>
+    <string name="report">Report</string>
+    <string name="report_comment">Report Comment</string>
+    <string name="comment_reported">Comment has been reported.</string>
+    <string name="no_outfits">You have no outfits! Make a new one on your profile.</string>
+    <string name="not_found">NOT_FOUND</string>
+    <string name="contest_button_name" translatable="false">contest_button_name</string>
+    <string name="contest_button_outfit" translatable="false">contest_button_outfit</string>
+    <string name="liked" translatable="false">Liked!</string>
+    <string name="disliked" translatable="false">Disliked</string>
+    <string name="like" translatable="false">Like</string>
+    <string name="dislike" translatable="false">Dislike</string>
+    <string name="abandon" translatable="false">Abandon</string>
+
+
+
+    <string-array name="contests_array">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>HundredK</item>
+    </string-array>
+
+
 </resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/change_un"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="changeUserName"
+            android:text="@string/change_un" />
+
+        <Button
+            android:id="@+id/change_pw"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="changePassword"
+            android:text="@string/change_pw" />
+
+        <Switch
+            android:id="@+id/dark_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/dark_mode"
+            tools:checked="false" />
+
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="?attr/actionModeCloseDrawable"
+            android:onClick="switchToYourFlex" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
